@@ -1,13 +1,9 @@
 /* eslint-disable */
 
 export default function taskBlock(trueOrFalse) {
-  let task = false;
-  let task2 = true;
+  const task = false;
+  const task2 = true;
 
-  if (trueOrFalse) {
-    task = true;
-    task2 = false;
-  }
-
+  // The if block is no longer necessary since you want the same values returned
   return [task, task2];
 }
