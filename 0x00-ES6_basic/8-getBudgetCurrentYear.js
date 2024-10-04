@@ -1,4 +1,4 @@
-/* eslint-disable */
+ 
 
 function getCurrentYear() {
   const date = new Date();

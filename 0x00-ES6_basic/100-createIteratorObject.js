@@ -1,4 +1,4 @@
-/* eslint-disable */
+ 
 
 export default function createIteratorObject(report) {
   const allEmployees = report.allEmployees;
