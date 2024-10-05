@@ -6,9 +6,9 @@ const config = [
       sourceType: 'module',
       globals: {
         Atomics: 'readonly',
-        SharedArrayBuffer: 'readonly',
-      },
-    },
+        SharedArrayBuffer: 'readonly'
+      }
+    }
   },
   {
     files: ['**/*.js'],
@@ -18,24 +18,24 @@ const config = [
       'no-restricted-syntax': [
         'error',
         'LabeledStatement',
-        'WithStatement',
-      ],
-    },
+        'WithStatement'
+      ]
+    }
   },
   {
     files: ['**/*.test.js', '**/*.spec.js'],
     languageOptions: {
       globals: {
-        jest: true,
-      },
+        jest: true
+      }
     },
     rules: {
       'jest/no-disabled-tests': 'warn',
       'jest/no-focused-tests': 'error',
-      'jest/prefer-to-have-length': 'warn',
-    },
-  },
-];
+      'jest/prefer-to-have-length': 'warn'
+    }
+  }
+]
 
 // Use CommonJS export
-module.exports = config;
+module.exports = config
